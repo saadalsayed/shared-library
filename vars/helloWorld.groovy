@@ -1,3 +1,3 @@
-def call() {
-   sh 'echo "welcome from shared library in github"'
+def call(string name,string dayofweek) {
+   sh 'echo "welcome $(name). Today is $(dayofweek)."'
 }
