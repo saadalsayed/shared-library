@@ -1,3 +1,3 @@
 def call() {
-   sh 'welcome from shared library in github'
+   sh 'echo "welcome from shared library in github"'
 }
